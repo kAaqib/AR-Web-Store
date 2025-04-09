@@ -11,5 +11,5 @@ const options = {
 };
 
 https.createServer(options, app).listen(443, () => {
-    console.log("Server running on https://192.168.168.240:443");
+    console.log("Server running on https://your_ipv4_address:443");
 });
