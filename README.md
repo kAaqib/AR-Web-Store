@@ -40,41 +40,40 @@ AR-Web-Store empowers users to experience products in augmented reality before p
 
 ```bash
 git clone https://github.com/kAaqib/AR-Web-Store.git
-cd AR-Web-Store
 ```
 
 ### Install Dependencies
 Each app is a separate React project. You’ll need to install dependencies in each folder. For example:
 
-bash
-Copy
-Edit
+```bash
 cd AR-Webstore-main
 npm install
 cd ../"Multiple Objects WebXR"
 npm install
 cd ..
-Build the Apps
+```
+
+### Build the Apps
 At the root of each app, run the build command:
 
-bash
-Copy
-Edit
+```bash
 cd AR-Webstore-main
 npm run build
 cd ../"Multiple Objects WebXR"
 npm run build
 cd ..
-Running the Apps
+```
+
+### Running the Apps
 The server.js file in the root directory is used to serve the built apps on their respective ports. Make sure the builds are up-to-date before running the server.
 
 Start the Server
 At the root of the repository, run:
 
-bash
-Copy
-Edit
+```bash
 node server.js
+```
+
 The server will serve each app on its designated port. For example:
 
 AR-Webstore-main: might be served on https://your_ipv4_address:443
@@ -83,14 +82,15 @@ Multiple Objects WebXR: might be served on http://your_ipv4_address:444
 
 (Verify the port assignments in server.js for exact details.)
 
-About the Apps
-AR-Webstore-main:
+## About the Apps
+
+### AR-Webstore-main:
 An augmented reality web store experience that allows users to browse furniture products, place 3D models into their environment, and interact (select, move, scale, and rotate) with them in AR.
 
-Multiple Objects WebXR:
+### Multiple Objects WebXR:
 A demonstration of placing and interacting with multiple 3D objects in an AR environment. This app is focused on managing several objects simultaneously within an AR scene.
 
-Contributing
+## Contributing
 Contributions to either app are welcome. Please follow these guidelines:
 
 Fork the repository.
@@ -99,82 +99,12 @@ Create a branch for your feature or bug fix.
 
 Submit a pull request with a clear description of your changes.
 
-Acknowledgements
-Three.js & WebXR:
+## Acknowledgements
+### Three.js & WebXR:
 This project uses Three.js and the WebXR API to bring augmented reality into the browser.
 
-React:
+### React:
 Each app is built using React to manage the AR UI and interactions.
 
-Open Source Community:
-Thanks to everyone contributing to open source AR projects and libraries.
-
-
-
-
-
-Install Dependencies
-
-Each app is a separate React project. You’ll need to install dependencies in each folder. For example:
-
-bash
-Copy
-Edit
-cd AR-Webstore-main
-npm install
-cd ../"Multiple Objects WebXR"
-npm install
-cd ..
-Build the Apps
-
-At the root of each app, run the build command:
-
-bash
-Copy
-Edit
-cd AR-Webstore-main
-npm run build
-cd ../"Multiple Objects WebXR"
-npm run build
-cd ..
-Running the Apps
-The server.js file in the root directory is used to serve the built apps on their respective ports. Make sure the builds are up-to-date before running the server.
-
-Start the Server
-
-At the root of the repository, run:
-node server.js
-
-The server will serve each app on its designated port. For example:
-
-AR-Webstore-main might be served on https://your_ipv4_address:443
-
-Multiple Objects WebXR might be served on http://your_ipv4_address:444
-
-(Verify the port assignments in server.js for exact details.)
-
-About the Apps
-AR-Webstore-main:
-An augmented reality web store experience that allows users to browse furniture products, place 3D models into their environment, and interact (select, move, scale, and rotate) with them in AR.
-
-Multiple Objects WebXR:
-A demonstration of placing and interacting with multiple 3D objects in an AR environment. This app is focused on managing several objects simultaneously within an AR scene.
-
-Contributing
-Contributions to either app are welcome. Please follow these guidelines:
-
-Fork the repository.
-
-Create a branch for your feature or bug fix.
-
-Submit a pull request with a clear description of your changes.
-
-Acknowledgements
-Three.js & WebXR:
-This project uses Three.js and the WebXR API to bring augmented reality into the browser.
-
-React:
-Each app is built using React to manage the AR UI and interactions.
-
-Open Source Community:
+### Open Source Community:
 Thanks to everyone contributing to open source AR projects and libraries.
