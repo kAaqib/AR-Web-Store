@@ -78,7 +78,7 @@ The server will serve each app on its designated port. For example:
 
 AR-Webstore-main: might be served on https://your_ipv4_address:443
 
-Multiple Objects WebXR: might be served on http://your_ipv4_address:444
+Multiple Objects WebXR: might be served on https://your_ipv4_address:444
 
 (Verify the port assignments in server.js for exact details.)
 
@@ -92,9 +92,31 @@ https://<your_laptop_ipv4_address>:443
 ```
 The Multiple Objects WebXR is served on port 444, access it via:
 ```bash
-http://<your_laptop_ipv4_address>:444
+https://<your_laptop_ipv4_address>:444
 ```
 This enables you to test the AR experience on your mobile device using its camera and sensors for immersive AR functionality.
+
+##Run-through
+
+The Web Store displays all the items offered
+
+### To view an individual product in your space
+1) Click on the 3-D Cube icon alongside any of the product to view it your space
+2) Click on allow
+3) Point the camera device in your space to view the product
+4) Interact with the 3D model, scale it, rotate it
+
+### To view multiple products in your space
+1) Add the products into your wishlist
+2) Navigate to /wishlist page
+3) You will see the list of items added to wishlist
+4) Click on "View all in AR"
+5) Or navigate to
+   ```bash
+   https://<your_laptop_ipv4_address>:444
+   ```
+6) Click on "Start AR"
+7) Select the product and place it in your space
 
 ## About the Apps
 
