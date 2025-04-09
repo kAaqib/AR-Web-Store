@@ -96,7 +96,7 @@ https://<your_laptop_ipv4_address>:444
 ```
 This enables you to test the AR experience on your mobile device using its camera and sensors for immersive AR functionality.
 
-##Run-through
+## Run-through
 
 The Web Store displays all the items offered
 
