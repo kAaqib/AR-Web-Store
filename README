@@ -1,0 +1,31 @@
+AR-Web-Store
+AR-Web-Store is a web-based augmented reality experience that lets users browse a virtual furniture catalog, place 3D models into their real-world environment, and interact with them through intuitive gestures—all within a modern web browser using WebXR and Three.js.
+
+Overview
+AR-Web-Store empowers users to experience products in augmented reality before purchasing. It uses advanced WebXR features to detect surfaces, accurately place 3D furniture models, and allow object manipulation such as translation, scaling, and rotation. This repository demonstrates an end-to-end AR experience and serves as a starting point for developing a robust AR web store.
+
+Features
+AR Model Placement:
+Utilize AR hit testing and a reticle to precisely position models in your physical space.
+
+Interactive Object Manipulation:
+Once an object is placed, interact with it by tapping to select, dragging to move, and using pinch gestures to scale and rotate.
+
+Simple Furniture Catalog UI:
+Choose from a set of models via a thumbnail-based UI to decide which item to place in the scene.
+
+Realistic Lighting with XREstimatedLight:
+Use WebXR light estimation for more natural lighting effects on 3D models.
+
+Technologies Used
+Three.js:
+For 3D scene creation and model rendering.
+
+WebXR API:
+Provides immersive AR sessions in compatible browsers and devices.
+
+React:
+Organizes the application into modular components, managing both the AR scene and UI interactions.
+
+GLTFLoader:
+Loads GLB models into the Three.js scene.
